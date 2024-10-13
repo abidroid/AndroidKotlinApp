@@ -1,5 +1,6 @@
 package dev.intellilogics.androidkotlinapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -28,8 +29,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnCalculator.setOnClickListener{
-//            val intent = Intent(this, CalculatorActivity::class.java)
-//            startActivity(intent)
+            val intent = Intent(this, CalculatorActivity::class.java)
+            startActivity(intent)
 
         }
     }
